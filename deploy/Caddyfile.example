@@ -1,0 +1,17 @@
+# Replace this hostname with a domain you control before starting Caddy.
+memory.example.com {
+    request_body {
+        max_size 50331648
+    }
+    @memory path /healthz /add /search
+    handle @memory {
+        reverse_proxy 127.0.0.1:18090 {
+            transport http {
+                response_header_timeout 30m
+            }
+        }
+    }
+    handle {
+        respond 404
+    }
+}

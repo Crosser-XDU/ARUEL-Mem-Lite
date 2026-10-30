@@ -1,0 +1,74 @@
+{
+  "retrieved_date": "2026-10-28 Asia/Shanghai",
+  "execution_policy": "Downloaded for read-only research; no source code executed; no dependencies installed.",
+  "repositories": [
+    {
+      "repo": "Little-Fridge/M2A",
+      "url": "https://github.com/Little-Fridge/M2A",
+      "commit": "edd8c3b75bae8b2c9c1a0ac8ed67e38c2c2723f8",
+      "license_files": [
+        "LICENSE"
+      ],
+      "license": "MIT",
+      "git_status_clean": true,
+      "checked_out_bytes": 147122
+    },
+    {
+      "repo": "Dingyi-Kang/V-Mem",
+      "url": "https://github.com/Dingyi-Kang/V-Mem",
+      "commit": "36916b14dc5241e04acbf5cd0f3c40799bc09550",
+      "license_files": [
+        "LICENSE"
+      ],
+      "license": "MIT",
+      "git_status_clean": true,
+      "checked_out_bytes": 2111170
+    },
+    {
+      "repo": "JingbiaoMei/ATM-Bench",
+      "url": "https://github.com/JingbiaoMei/ATM-Bench",
+      "commit": "ef4e5dff1a47ec71213a06e359f02753defa8fb1",
+      "license_files": [
+        "LICENSE"
+      ],
+      "license": "MIT",
+      "git_status_clean": true,
+      "checked_out_bytes": 11168802
+    },
+    {
+      "repo": "memorax-ai/graphmemix",
+      "url": "https://github.com/memorax-ai/graphmemix",
+      "commit": "f938a6cebc634d7d8da8971d25d155903c0a52eb",
+      "license_files": [],
+      "license": "MIT declared in pyproject.toml:10; no root LICENSE file",
+      "git_status_clean": true,
+      "checked_out_bytes": 2643728
+    },
+    {
+      "repo": "ronpay/TAME",
+      "url": "https://github.com/ronpay/TAME",
+      "commit": "21d5a7cfa85106f278868e2f60887e8ab264c1f2",
+      "license_files": [
+        "LICENSE"
+      ],
+      "license": "GPL-3.0",
+      "git_status_clean": true,
+      "checked_out_bytes": 381272252
+    },
+    {
+      "repo": "aiming-lab/SimpleMem",
+      "url": "https://github.com/aiming-lab/SimpleMem",
+      "commit": "db80b6a7c591e0ea730a058e9f5fc4eb06572299",
+      "license_files": [
+        "LICENSE"
+      ],
+      "license": "MIT",
+      "git_status_clean": true,
+      "checked_out_bytes": 83351005
+    }
+  ],
+  "DeliverMem": {
+    "project": "https://avalon-s.github.io/DeliverMem/",
+    "status": "Code on publication; no repository linked as of 2026-10-28"
+  }
+}

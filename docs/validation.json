@@ -1,0 +1,10 @@
+{
+  "date": "2026-10-30",
+  "python": "3.12.13",
+  "pytest_passed": 364,
+  "subtests_passed": 48,
+  "warnings": ["Existing Starlette TestClient/httpx deprecation warning"],
+  "network_used_by_tests": false,
+  "live_smoke": {"text_add_search": "passed", "caption_image_add_search": "passed", "missing_caption_image_add_search": "passed", "embedding_dimensions": 1024, "original_evidence_preserved": true},
+  "benchmark_quality_evaluated": false
+}
