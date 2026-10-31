@@ -1,10 +1,453 @@
 {
-  "date": "2026-10-30",
-  "python": "3.12.13",
-  "pytest_passed": 364,
-  "subtests_passed": 48,
-  "warnings": ["Existing Starlette TestClient/httpx deprecation warning"],
-  "network_used_by_tests": false,
-  "live_smoke": {"text_add_search": "passed", "caption_image_add_search": "passed", "missing_caption_image_add_search": "passed", "embedding_dimensions": 1024, "original_evidence_preserved": true},
-  "benchmark_quality_evaluated": false
+  "generated_at": "2026-10-31T15:47:14.792657+00:00",
+  "active_profiles": [
+    "B",
+    "C"
+  ],
+  "cancelled_profile": "A",
+  "unit_tests": {
+    "name": "pytest",
+    "errors": "0",
+    "failures": "0",
+    "skipped": "0",
+    "tests": "39",
+    "time": "1.032",
+    "timestamp": "2026-10-31T23:45:56.053399+08:00",
+    "hostname": "wqydeMac-mini.lan"
+  },
+  "model_revision": "25f203a237b822a90f38763843562b93a5baf82f",
+  "model_sha256": "e5218d379f3538e6b1f24084b367eab11f2ca8586fa94878bc170b153e5b96b3",
+  "model_sha256_verified": true,
+  "official_benchmark_rerun": false,
+  "observed_upstream_failure": "One synthetic Add encountered unavailable upstream extraction after one transport retry; returned retryable HTTP 503 and did not publish partial memory. Later probes and public end-to-end tests succeeded.",
+  "model": {
+    "self_test": {
+      "scores": [
+        3.125,
+        -11.375,
+        -10.0625
+      ],
+      "expected_order": true,
+      "reference_margin": 3.125,
+      "projection_abs_error": 0.0,
+      "projection_equivalent": true,
+      "quantization": {
+        "group_size": 32,
+        "bits": 8,
+        "mode": "mxfp8"
+      }
+    },
+    "batch_80": {
+      "seconds": 95.47,
+      "pairs": 80,
+      "finite_scores": true,
+      "document_character_lengths": [
+        537,
+        1591,
+        3097,
+        6199
+      ],
+      "single_pair_max_input_tokens": 1024
+    },
+    "worker_stats": {
+      "image_vectors": 0,
+      "text_vectors": 0,
+      "rerank_pairs": 83,
+      "last_rerank_seconds": 95.419,
+      "last_rerank_pairs": 80,
+      "mlx_peak_bytes": 4646521856
+    },
+    "health": {
+      "siglip": false,
+      "reranker": true
+    }
+  },
+  "B_public": {
+    "profile": "B",
+    "public": true,
+    "user": "smoke-916ef71606d040bb891ea7a3ff26545c",
+    "steps": [
+      {
+        "operation": "add",
+        "status": 200,
+        "seconds": 9.329
+      },
+      {
+        "operation": "add",
+        "status": 200,
+        "seconds": 24.665
+      },
+      {
+        "operation": "search",
+        "status": 200,
+        "seconds": 3.252,
+        "results": 3,
+        "pixels": 1,
+        "both_states": true
+      }
+    ],
+    "health": {
+      "status": "ok",
+      "profile": "B",
+      "version": "3.0.0",
+      "uptime_seconds": 9
+    },
+    "replay_seconds": 0.121,
+    "user_isolation": true
+  },
+  "C_public": {
+    "profile": "C",
+    "public": true,
+    "user": "smoke-0b19c5607a3944f9ab69329eccc58834",
+    "steps": [
+      {
+        "operation": "add",
+        "status": 200,
+        "seconds": 4.91
+      },
+      {
+        "operation": "add",
+        "status": 200,
+        "seconds": 4.719
+      },
+      {
+        "operation": "search",
+        "status": 200,
+        "seconds": 6.418,
+        "results": 3,
+        "pixels": 1,
+        "both_states": true
+      }
+    ],
+    "health": {
+      "status": "ok",
+      "profile": "C",
+      "version": "3.0.0",
+      "uptime_seconds": 57
+    },
+    "replay_seconds": 0.113,
+    "user_isolation": true
+  },
+  "C_under_model_load": {
+    "profile": "C",
+    "public": false,
+    "user": "smoke-1bed930ff99643699b99d78a4a298043",
+    "steps": [
+      {
+        "operation": "add",
+        "status": 200,
+        "seconds": 11.19
+      },
+      {
+        "operation": "add",
+        "status": 200,
+        "seconds": 6.713
+      },
+      {
+        "operation": "search",
+        "status": 200,
+        "seconds": 54.818,
+        "results": 3,
+        "pixels": 1,
+        "both_states": true
+      }
+    ],
+    "health": {
+      "status": "ok",
+      "profile": "C",
+      "version": "3.0.0",
+      "uptime_seconds": 43
+    },
+    "replay_seconds": 0.009,
+    "user_isolation": true,
+    "stats": {
+      "profile": "C",
+      "storage": {
+        "requests": 2,
+        "messages": 2,
+        "images": 1,
+        "cells": 2,
+        "scenes": 1,
+        "docs": 10,
+        "states": 1,
+        "preferences": 0
+      },
+      "provider": {
+        "format_retry": 0,
+        "extract": 2,
+        "parse_json": 3,
+        "extraction_fallback_cells": 0,
+        "embedding": 6,
+        "rerank_pairs": 5,
+        "judge": 1
+      },
+      "retrieval": {
+        "rounds": 1,
+        "early_stop": 1,
+        "searches": 1
+      },
+      "http": {
+        "add_ok": 3,
+        "search_ok": 2
+      }
+    }
+  },
+  "tunnel_failover": {
+    "primary_tunnel_disabled": true,
+    "public_health_statuses": [
+      200,
+      200,
+      200
+    ],
+    "primary_restored": true
+  },
+  "restart": {
+    "old_pid": 17812,
+    "new_pid": 18881,
+    "automatic_respawn": true,
+    "persisted_storage_equal": true,
+    "search_after_restart": 200
+  },
+  "image_query": {
+    "profile": "B",
+    "user": "image-smoke-4bfa25a4854e4051a279c8afadce0c86",
+    "provided_caption": false,
+    "add_seconds": 10.051,
+    "search_seconds": 7.075,
+    "status": 200,
+    "pixels": 1,
+    "owner_evidence": true,
+    "provider_delta": {
+      "caption": 1,
+      "parse_json": 5,
+      "extract": 1,
+      "embedding": 5,
+      "query_image": 1,
+      "judge": 2
+    },
+    "format_retry": 0
+  },
+  "final_health": {
+    "B": {
+      "status": 200,
+      "body": {
+        "status": "ok",
+        "profile": "B",
+        "version": "3.0.0",
+        "uptime_seconds": 231
+      }
+    },
+    "C": {
+      "status": 200,
+      "body": {
+        "status": "ok",
+        "profile": "C",
+        "version": "3.0.0",
+        "uptime_seconds": 231
+      }
+    }
+  },
+  "final_stats": {
+    "B": {
+      "profile": "B",
+      "storage": {
+        "requests": 7,
+        "messages": 8,
+        "images": 4,
+        "cells": 8,
+        "scenes": 6,
+        "docs": 38,
+        "states": 2,
+        "preferences": 0
+      },
+      "provider": {
+        "format_retry": 0,
+        "caption": 1,
+        "parse_json": 5,
+        "extract": 1,
+        "extraction_fallback_cells": 0,
+        "embedding": 5,
+        "query_image": 1,
+        "judge": 2
+      },
+      "retrieval": {
+        "rounds": 3,
+        "searches": 1
+      },
+      "http": {
+        "add_ok": 1,
+        "search_ok": 1
+      }
+    },
+    "C": {
+      "profile": "C",
+      "storage": {
+        "requests": 4,
+        "messages": 4,
+        "images": 2,
+        "cells": 4,
+        "scenes": 2,
+        "docs": 20,
+        "states": 3,
+        "preferences": 0
+      },
+      "provider": {
+        "format_retry": 0,
+        "extract": 2,
+        "parse_json": 3,
+        "extraction_fallback_cells": 0,
+        "embedding": 2,
+        "rerank_pairs": 5,
+        "judge": 1
+      },
+      "retrieval": {
+        "rounds": 1,
+        "early_stop": 1,
+        "searches": 1
+      },
+      "http": {
+        "add_ok": 3,
+        "search_ok": 2
+      }
+    }
+  },
+  "cross_profile_token_rejected": true,
+  "A_public_route_absent": true,
+  "completed_at": "2026-10-31T15:48:48.692830+00:00",
+  "route_token_migration": {
+    "B": {
+      "health": {
+        "status": "ok",
+        "profile": "B",
+        "version": "3.0.0",
+        "uptime_seconds": 45
+      },
+      "urls": {
+        "add_url": "https://139.196.16.167/add",
+        "search_url": "https://139.196.16.167/search",
+        "health_url": "https://139.196.16.167/healthz"
+      },
+      "add": {
+        "status": 200,
+        "idempotent": true,
+        "no_model_call": true,
+        "seconds": 0.126
+      },
+      "search": {
+        "status": 200,
+        "results": 3,
+        "pixels": 1,
+        "both_states": true,
+        "seconds": 2.823
+      },
+      "unauthorized_statuses": [
+        401,
+        401,
+        401,
+        401,
+        401,
+        401
+      ],
+      "three_auth_formats": true,
+      "stats": {
+        "profile": "B",
+        "storage": {
+          "requests": 7,
+          "messages": 8,
+          "images": 4,
+          "cells": 8,
+          "scenes": 6,
+          "docs": 38,
+          "states": 2,
+          "preferences": 0
+        },
+        "provider": {
+          "format_retry": 0,
+          "judge": 2,
+          "parse_json": 2
+        },
+        "retrieval": {
+          "rounds": 2,
+          "early_stop": 2,
+          "searches": 2
+        },
+        "http": {
+          "add_ok": 2,
+          "search_ok": 4
+        }
+      }
+    },
+    "C": {
+      "health": {
+        "status": "ok",
+        "profile": "C",
+        "version": "3.0.0",
+        "uptime_seconds": 49
+      },
+      "urls": {
+        "add_url": "https://139.196.16.167/m3/add",
+        "search_url": "https://139.196.16.167/m3/search",
+        "health_url": "https://139.196.16.167/m3/healthz"
+      },
+      "add": {
+        "status": 200,
+        "idempotent": true,
+        "no_model_call": true,
+        "seconds": 0.17
+      },
+      "search": {
+        "status": 200,
+        "results": 3,
+        "pixels": 1,
+        "both_states": true,
+        "seconds": 14.469
+      },
+      "unauthorized_statuses": [
+        401,
+        401,
+        401,
+        401,
+        401,
+        401
+      ],
+      "three_auth_formats": true,
+      "stats": {
+        "profile": "C",
+        "storage": {
+          "requests": 4,
+          "messages": 4,
+          "images": 2,
+          "cells": 4,
+          "scenes": 2,
+          "docs": 20,
+          "states": 3,
+          "preferences": 0
+        },
+        "provider": {
+          "format_retry": 0,
+          "judge": 1,
+          "parse_json": 1
+        },
+        "retrieval": {
+          "rounds": 1,
+          "early_stop": 1,
+          "searches": 1
+        },
+        "http": {
+          "add_ok": 1,
+          "search_ok": 3
+        }
+      }
+    }
+  },
+  "release_profile": "B",
+  "release_checks": {
+    "profile": "B",
+    "tests": 39,
+    "failures": 0,
+    "errors": 0,
+    "wheel_built_and_modules_verified": true,
+    "portable_startup_config_verified": true,
+    "live_application_source_match": "exact"
+  }
 }

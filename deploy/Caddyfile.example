@@ -1,13 +1,18 @@
-# Replace this hostname with a domain you control before starting Caddy.
-memory.example.com {
+# Merge this route block into your existing HTTPS site; keep other services intact.
+# This standalone example is for a local TLS-terminating proxy on the same host.
+# For the deployed IP certificate and dual tunnels, see docs/deployment.md.
+example.com {
     request_body {
         max_size 50331648
     }
-    @memory path /healthz /add /search
+    @memory path /add /search /healthz
     handle @memory {
-        reverse_proxy 127.0.0.1:18090 {
+        reverse_proxy 127.0.0.1:18110 {
             transport http {
+                dial_timeout 3s
                 response_header_timeout 30m
+                read_timeout 30m
+                write_timeout 30m
             }
         }
     }

@@ -1,0 +1,9 @@
+{
+  "profile": "B",
+  "branch": "codex/v3-b-structured-rag",
+  "base_commit": "85296ef9f8f09d01053524c567c32a98e4fc1a5f",
+  "add_url": "https://139.196.16.167/add",
+  "search_url": "https://139.196.16.167/search",
+  "siglip_enabled": false,
+  "reranker_enabled": false
+}
