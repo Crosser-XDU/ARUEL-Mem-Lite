@@ -1,0 +1,9 @@
+{
+  "profile": "C",
+  "branch": "codex/v3-c-mlx-reranker",
+  "base_commit": "85296ef9f8f09d01053524c567c32a98e4fc1a5f",
+  "add_url": "https://139.196.16.167/m3/add",
+  "search_url": "https://139.196.16.167/m3/search",
+  "siglip_enabled": false,
+  "reranker_enabled": true
+}

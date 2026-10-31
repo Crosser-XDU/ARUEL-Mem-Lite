@@ -1,74 +1,282 @@
-{
-  "retrieved_date": "2026-10-28 Asia/Shanghai",
-  "execution_policy": "Downloaded for read-only research; no source code executed; no dependencies installed.",
-  "repositories": [
-    {
-      "repo": "Little-Fridge/M2A",
-      "url": "https://github.com/Little-Fridge/M2A",
-      "commit": "edd8c3b75bae8b2c9c1a0ac8ed67e38c2c2723f8",
-      "license_files": [
-        "LICENSE"
-      ],
-      "license": "MIT",
-      "git_status_clean": true,
-      "checked_out_bytes": 147122
-    },
-    {
-      "repo": "Dingyi-Kang/V-Mem",
-      "url": "https://github.com/Dingyi-Kang/V-Mem",
-      "commit": "36916b14dc5241e04acbf5cd0f3c40799bc09550",
-      "license_files": [
-        "LICENSE"
-      ],
-      "license": "MIT",
-      "git_status_clean": true,
-      "checked_out_bytes": 2111170
-    },
-    {
-      "repo": "JingbiaoMei/ATM-Bench",
-      "url": "https://github.com/JingbiaoMei/ATM-Bench",
-      "commit": "ef4e5dff1a47ec71213a06e359f02753defa8fb1",
-      "license_files": [
-        "LICENSE"
-      ],
-      "license": "MIT",
-      "git_status_clean": true,
-      "checked_out_bytes": 11168802
-    },
-    {
-      "repo": "memorax-ai/graphmemix",
-      "url": "https://github.com/memorax-ai/graphmemix",
-      "commit": "f938a6cebc634d7d8da8971d25d155903c0a52eb",
-      "license_files": [],
-      "license": "MIT declared in pyproject.toml:10; no root LICENSE file",
-      "git_status_clean": true,
-      "checked_out_bytes": 2643728
-    },
-    {
-      "repo": "ronpay/TAME",
-      "url": "https://github.com/ronpay/TAME",
-      "commit": "21d5a7cfa85106f278868e2f60887e8ab264c1f2",
-      "license_files": [
-        "LICENSE"
-      ],
-      "license": "GPL-3.0",
-      "git_status_clean": true,
-      "checked_out_bytes": 381272252
-    },
-    {
-      "repo": "aiming-lab/SimpleMem",
-      "url": "https://github.com/aiming-lab/SimpleMem",
-      "commit": "db80b6a7c591e0ea730a058e9f5fc4eb06572299",
-      "license_files": [
-        "LICENSE"
-      ],
-      "license": "MIT",
-      "git_status_clean": true,
-      "checked_out_bytes": 83351005
-    }
-  ],
-  "DeliverMem": {
-    "project": "https://avalon-s.github.io/DeliverMem/",
-    "status": "Code on publication; no repository linked as of 2026-10-28"
+[
+  {
+    "repo": "zjunlp/MemBase",
+    "revision": "a9ba9495d48541d3e68588ff097294cc7a1201bc",
+    "path": "examples/evaluate_memory_systems_on_mobilemem_omni/README.md",
+    "url": "https://raw.githubusercontent.com/zjunlp/MemBase/a9ba9495d48541d3e68588ff097294cc7a1201bc/examples/evaluate_memory_systems_on_mobilemem_omni/README.md",
+    "sha256": "1ed2d60fdaf174c060a313677720de70b6a1603e5ce7714aa5fe4707e52511a3",
+    "bytes": 6419
+  },
+  {
+    "repo": "zjunlp/MemBase",
+    "revision": "a9ba9495d48541d3e68588ff097294cc7a1201bc",
+    "path": "examples/evaluate_memory_systems_on_mobilemem_omni/configs/evermemos_config.json",
+    "url": "https://raw.githubusercontent.com/zjunlp/MemBase/a9ba9495d48541d3e68588ff097294cc7a1201bc/examples/evaluate_memory_systems_on_mobilemem_omni/configs/evermemos_config.json",
+    "sha256": "a4d0a9fca3cce1ef2d7a45754248c0555537577a99ae1584325e3285c018e4d2",
+    "bytes": 1688
+  },
+  {
+    "repo": "zjunlp/MemBase",
+    "revision": "a9ba9495d48541d3e68588ff097294cc7a1201bc",
+    "path": "membase/layers/evermemos.py",
+    "url": "https://raw.githubusercontent.com/zjunlp/MemBase/a9ba9495d48541d3e68588ff097294cc7a1201bc/membase/layers/evermemos.py",
+    "sha256": "e8fb2d04a4a65705a4b06ff908744492413512dc63954607711a63cae48560d5",
+    "bytes": 12828
+  },
+  {
+    "repo": "zjunlp/MemBase",
+    "revision": "a9ba9495d48541d3e68588ff097294cc7a1201bc",
+    "path": "membase/configs/evermemos.py",
+    "url": "https://raw.githubusercontent.com/zjunlp/MemBase/a9ba9495d48541d3e68588ff097294cc7a1201bc/membase/configs/evermemos.py",
+    "sha256": "083fe9763832127e1911c5c320f470db4713fa923e4efc48bf12397065c619da",
+    "bytes": 4556
+  },
+  {
+    "repo": "zjunlp/MemBase",
+    "revision": "a9ba9495d48541d3e68588ff097294cc7a1201bc",
+    "path": "membase/baselines/evermemos/agentic_layer/agentic_utils.py",
+    "url": "https://raw.githubusercontent.com/zjunlp/MemBase/a9ba9495d48541d3e68588ff097294cc7a1201bc/membase/baselines/evermemos/agentic_layer/agentic_utils.py",
+    "sha256": "1b0c206bd2c271d6805103fff4db1bc1549dfaa466bbeb035b0aab860f898188",
+    "bytes": 13921
+  },
+  {
+    "repo": "zjunlp/MemBase",
+    "revision": "a9ba9495d48541d3e68588ff097294cc7a1201bc",
+    "path": "membase/baselines/evermemos/agentic_layer/memory_manager.py",
+    "url": "https://raw.githubusercontent.com/zjunlp/MemBase/a9ba9495d48541d3e68588ff097294cc7a1201bc/membase/baselines/evermemos/agentic_layer/memory_manager.py",
+    "sha256": "132c63aa76dda38b7b9169f03ba405a91fefaa69cf4ec454596ad704683ae942",
+    "bytes": 54943
+  },
+  {
+    "repo": "zjunlp/MemBase",
+    "revision": "a9ba9495d48541d3e68588ff097294cc7a1201bc",
+    "path": "membase/baselines/evermemos/agentic_layer/retrieval_utils.py",
+    "url": "https://raw.githubusercontent.com/zjunlp/MemBase/a9ba9495d48541d3e68588ff097294cc7a1201bc/membase/baselines/evermemos/agentic_layer/retrieval_utils.py",
+    "sha256": "50918f0c647754a083f5115a74ec2dcd897ea2ef824d6153bab1210874865458",
+    "bytes": 27987
+  },
+  {
+    "repo": "zjunlp/MemBase",
+    "revision": "a9ba9495d48541d3e68588ff097294cc7a1201bc",
+    "path": "membase/baselines/evermemos/api_specs/memory_models.py",
+    "url": "https://raw.githubusercontent.com/zjunlp/MemBase/a9ba9495d48541d3e68588ff097294cc7a1201bc/membase/baselines/evermemos/api_specs/memory_models.py",
+    "sha256": "cf1c3bf423f34cb51c26d35edbab6959f56b11722912a421ccb73f9199a87463",
+    "bytes": 12767
+  },
+  {
+    "repo": "zjunlp/MemBase",
+    "revision": "a9ba9495d48541d3e68588ff097294cc7a1201bc",
+    "path": "membase/baselines/evermemos/memory_layer/memcell_extractor/conv_memcell_extractor.py",
+    "url": "https://raw.githubusercontent.com/zjunlp/MemBase/a9ba9495d48541d3e68588ff097294cc7a1201bc/membase/baselines/evermemos/memory_layer/memcell_extractor/conv_memcell_extractor.py",
+    "sha256": "31e3ba4f03fab2d1f585ac12ff0bd48581450c0ee329bc5536cc3035ef7b7a5d",
+    "bytes": 45698
+  },
+  {
+    "repo": "zjunlp/MemBase",
+    "revision": "a9ba9495d48541d3e68588ff097294cc7a1201bc",
+    "path": "membase/baselines/evermemos/memory_layer/cluster_manager/config.py",
+    "url": "https://raw.githubusercontent.com/zjunlp/MemBase/a9ba9495d48541d3e68588ff097294cc7a1201bc/membase/baselines/evermemos/memory_layer/cluster_manager/config.py",
+    "sha256": "6a43ad764c7d2edd259d97c6742f05d289f5be340de4aff81832390200866e00",
+    "bytes": 1824
+  },
+  {
+    "repo": "zjunlp/MemBase",
+    "revision": "a9ba9495d48541d3e68588ff097294cc7a1201bc",
+    "path": "membase/baselines/evermemos/memory_layer/cluster_manager/manager.py",
+    "url": "https://raw.githubusercontent.com/zjunlp/MemBase/a9ba9495d48541d3e68588ff097294cc7a1201bc/membase/baselines/evermemos/memory_layer/cluster_manager/manager.py",
+    "sha256": "106720cd495c7955fcd298eb8c63b09eb72f0b94bf4ff41dfe7489bc4b071c79",
+    "bytes": 15201
+  },
+  {
+    "repo": "zjunlp/MemBase",
+    "revision": "a9ba9495d48541d3e68588ff097294cc7a1201bc",
+    "path": "membase/baselines/evermemos/memory_layer/profile_manager/README.md",
+    "url": "https://raw.githubusercontent.com/zjunlp/MemBase/a9ba9495d48541d3e68588ff097294cc7a1201bc/membase/baselines/evermemos/memory_layer/profile_manager/README.md",
+    "sha256": "780bcdb548b6bafc5b5b40419706694fb6a802e5bd9f053d5d3ca2acec929ab2",
+    "bytes": 11481
+  },
+  {
+    "repo": "zjunlp/MemBase",
+    "revision": "a9ba9495d48541d3e68588ff097294cc7a1201bc",
+    "path": "membase/baselines/evermemos/memory_layer/profile_manager/manager.py",
+    "url": "https://raw.githubusercontent.com/zjunlp/MemBase/a9ba9495d48541d3e68588ff097294cc7a1201bc/membase/baselines/evermemos/memory_layer/profile_manager/manager.py",
+    "sha256": "b4fca5e0cb63e92ea58a0e13e9bd43ad0105d7ddd3c89692e5a58755f56ccd1e",
+    "bytes": 13571
+  },
+  {
+    "repo": "zjunlp/MemBase",
+    "revision": "a9ba9495d48541d3e68588ff097294cc7a1201bc",
+    "path": "membase/baselines/evermemos/memory_layer/profile_manager/config.py",
+    "url": "https://raw.githubusercontent.com/zjunlp/MemBase/a9ba9495d48541d3e68588ff097294cc7a1201bc/membase/baselines/evermemos/memory_layer/profile_manager/config.py",
+    "sha256": "fdfe474d03b445f329f91072f1e1b7834a4b181921533b926a39836356bb3815",
+    "bytes": 1864
+  },
+  {
+    "repo": "zjunlp/MemBase",
+    "revision": "a9ba9495d48541d3e68588ff097294cc7a1201bc",
+    "path": "membase/baselines/evermemos/memory_layer/memory_extractor/event_log_extractor.py",
+    "url": "https://raw.githubusercontent.com/zjunlp/MemBase/a9ba9495d48541d3e68588ff097294cc7a1201bc/membase/baselines/evermemos/memory_layer/memory_extractor/event_log_extractor.py",
+    "sha256": "47ffabdc9086fb9ace0ce527d5f3cf21743391026533ddf11f063ac5c1329f0b",
+    "bytes": 18156
+  },
+  {
+    "repo": "zjunlp/MemBase",
+    "revision": "a9ba9495d48541d3e68588ff097294cc7a1201bc",
+    "path": "membase/baselines/evermemos/memory_layer/memory_extractor/episode_memory_extractor.py",
+    "url": "https://raw.githubusercontent.com/zjunlp/MemBase/a9ba9495d48541d3e68588ff097294cc7a1201bc/membase/baselines/evermemos/memory_layer/memory_extractor/episode_memory_extractor.py",
+    "sha256": "4041e551a209926703aeff8b9777eb6c31a1b66ef249b50499cb84ffcbf2d485",
+    "bytes": 24034
+  },
+  {
+    "repo": "zjunlp/MemBase",
+    "revision": "a9ba9495d48541d3e68588ff097294cc7a1201bc",
+    "path": "membase/baselines/evermemos/memory_layer/prompts/en/conv_prompts.py",
+    "url": "https://raw.githubusercontent.com/zjunlp/MemBase/a9ba9495d48541d3e68588ff097294cc7a1201bc/membase/baselines/evermemos/memory_layer/prompts/en/conv_prompts.py",
+    "sha256": "e4ef16b28cb1aac5456e824800e82dd362835fb659c94c6497fb637522625bc6",
+    "bytes": 4025
+  },
+  {
+    "repo": "zjunlp/MemBase",
+    "revision": "a9ba9495d48541d3e68588ff097294cc7a1201bc",
+    "path": "membase/baselines/evermemos/memory_layer/prompts/en/event_log_prompts.py",
+    "url": "https://raw.githubusercontent.com/zjunlp/MemBase/a9ba9495d48541d3e68588ff097294cc7a1201bc/membase/baselines/evermemos/memory_layer/prompts/en/event_log_prompts.py",
+    "sha256": "81aa97b61b2b86ce6416165483d4200c253bccbe5862da52619b41e9513f00b4",
+    "bytes": 3036
+  },
+  {
+    "repo": "zjunlp/MemBase",
+    "revision": "a9ba9495d48541d3e68588ff097294cc7a1201bc",
+    "path": "membase/baselines/evermemos/memory_layer/prompts/en/episode_mem_prompts.py",
+    "url": "https://raw.githubusercontent.com/zjunlp/MemBase/a9ba9495d48541d3e68588ff097294cc7a1201bc/membase/baselines/evermemos/memory_layer/prompts/en/episode_mem_prompts.py",
+    "sha256": "be5a1e8aaec2184664061416c1f61a454698fb3f66d5b8838e3fa2ce5b5e0fb0",
+    "bytes": 10291
+  },
+  {
+    "repo": "zjunlp/MemBase",
+    "revision": "a9ba9495d48541d3e68588ff097294cc7a1201bc",
+    "path": "membase/baselines/evermemos/memory_layer/prompts/en/profile_mem_life_prompts.py",
+    "url": "https://raw.githubusercontent.com/zjunlp/MemBase/a9ba9495d48541d3e68588ff097294cc7a1201bc/membase/baselines/evermemos/memory_layer/prompts/en/profile_mem_life_prompts.py",
+    "sha256": "5d17961bf951a9b8b4ef5e7dc7b78e521aa586452329504d69cb70161e9dbe79",
+    "bytes": 6343
+  },
+  {
+    "repo": "wenxiaof345-ctrl/vanilla-rag-memory",
+    "revision": "31ab7bf9cfa3ee3c4f986e82f6e7a00b134ba8ca",
+    "path": "README.md",
+    "url": "https://raw.githubusercontent.com/wenxiaof345-ctrl/vanilla-rag-memory/31ab7bf9cfa3ee3c4f986e82f6e7a00b134ba8ca/README.md",
+    "sha256": "b425e462177723323d7f904b1a6a551f09be2cd3f6754bbe36f7b4b1dd929a7e",
+    "bytes": 12529
+  },
+  {
+    "repo": "wenxiaof345-ctrl/vanilla-rag-memory",
+    "revision": "31ab7bf9cfa3ee3c4f986e82f6e7a00b134ba8ca",
+    "path": "src/vanilla_rag/memory_store.py",
+    "url": "https://raw.githubusercontent.com/wenxiaof345-ctrl/vanilla-rag-memory/31ab7bf9cfa3ee3c4f986e82f6e7a00b134ba8ca/src/vanilla_rag/memory_store.py",
+    "sha256": "3b6f1760d2780aae8b2e8a93246c7be678aa89126275a1dbbc40ea486b1a78c7",
+    "bytes": 25494
+  },
+  {
+    "repo": "wenxiaof345-ctrl/vanilla-rag-memory",
+    "revision": "31ab7bf9cfa3ee3c4f986e82f6e7a00b134ba8ca",
+    "path": "src/vanilla_rag/chunking.py",
+    "url": "https://raw.githubusercontent.com/wenxiaof345-ctrl/vanilla-rag-memory/31ab7bf9cfa3ee3c4f986e82f6e7a00b134ba8ca/src/vanilla_rag/chunking.py",
+    "sha256": "1f43ef3a297128a879d744713bb120606b0491ab260dd0ce4b80d4ec5a926bfb",
+    "bytes": 1722
+  },
+  {
+    "repo": "wenxiaof345-ctrl/vanilla-rag-memory",
+    "revision": "31ab7bf9cfa3ee3c4f986e82f6e7a00b134ba8ca",
+    "path": "src/vanilla_rag/api.py",
+    "url": "https://raw.githubusercontent.com/wenxiaof345-ctrl/vanilla-rag-memory/31ab7bf9cfa3ee3c4f986e82f6e7a00b134ba8ca/src/vanilla_rag/api.py",
+    "sha256": "07d90fb9c6a840c8780a2400e869a61d93d523e5e8adc1248ec5c1017dc45769",
+    "bytes": 6799
+  },
+  {
+    "repo": "wenxiaof345-ctrl/vanilla-rag-memory",
+    "revision": "31ab7bf9cfa3ee3c4f986e82f6e7a00b134ba8ca",
+    "path": "tests/test_memory_store.py",
+    "url": "https://raw.githubusercontent.com/wenxiaof345-ctrl/vanilla-rag-memory/31ab7bf9cfa3ee3c4f986e82f6e7a00b134ba8ca/tests/test_memory_store.py",
+    "sha256": "81bf88a499e8b634881fe56baf10d896cc380d8a001a8db31f58a68f3f62ff0d",
+    "bytes": 11440
+  },
+  {
+    "repo": "EverMind-AI/EverOS",
+    "revision": "5b0979b1b7f3a0cbe235756ff098515ec490753e",
+    "path": "src/everos/memory/search/agentic.py",
+    "url": "https://raw.githubusercontent.com/EverMind-AI/EverOS/5b0979b1b7f3a0cbe235756ff098515ec490753e/src/everos/memory/search/agentic.py",
+    "sha256": "5640df413882e29104a95aebe50d19db644ea4efb190745fbd7126130ca7e9ef",
+    "bytes": 12201
+  },
+  {
+    "repo": "EverMind-AI/EverOS",
+    "revision": "5b0979b1b7f3a0cbe235756ff098515ec490753e",
+    "path": "src/everos/memory/search/agentic_agent.py",
+    "url": "https://raw.githubusercontent.com/EverMind-AI/EverOS/5b0979b1b7f3a0cbe235756ff098515ec490753e/src/everos/memory/search/agentic_agent.py",
+    "sha256": "8f5e9fe8a4e646d64844f5798120021423e950cb0689806f9c3aca540b9e2f8f",
+    "bytes": 11493
+  },
+  {
+    "repo": "EverMind-AI/EverOS",
+    "revision": "5b0979b1b7f3a0cbe235756ff098515ec490753e",
+    "path": "src/everos/memory/strategies/extract_atomic_facts.py",
+    "url": "https://raw.githubusercontent.com/EverMind-AI/EverOS/5b0979b1b7f3a0cbe235756ff098515ec490753e/src/everos/memory/strategies/extract_atomic_facts.py",
+    "sha256": "e8052ace3ff33e2f1ded1324f35c2dece3254e162643dd48849dd3471fe6f103",
+    "bytes": 3684
+  },
+  {
+    "repo": "EverMind-AI/EverOS",
+    "revision": "5b0979b1b7f3a0cbe235756ff098515ec490753e",
+    "path": "src/everos/memory/strategies/trigger_profile_clustering.py",
+    "url": "https://raw.githubusercontent.com/EverMind-AI/EverOS/5b0979b1b7f3a0cbe235756ff098515ec490753e/src/everos/memory/strategies/trigger_profile_clustering.py",
+    "sha256": "c62bd48f23d13b5b4045305df36fd2832d0956b50053466da3c2996013f11587",
+    "bytes": 7546
+  },
+  {
+    "repo": "zjunlp/MemBase",
+    "revision": "a9ba9495d48541d3e68588ff097294cc7a1201bc",
+    "path": "membase/baselines/evermemos/online_memory/__init__.py",
+    "url": "https://raw.githubusercontent.com/zjunlp/MemBase/a9ba9495d48541d3e68588ff097294cc7a1201bc/membase/baselines/evermemos/online_memory/__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "repo": "zjunlp/MemBase",
+    "revision": "a9ba9495d48541d3e68588ff097294cc7a1201bc",
+    "path": "membase/baselines/evermemos/online_memory/config.py",
+    "url": "https://raw.githubusercontent.com/zjunlp/MemBase/a9ba9495d48541d3e68588ff097294cc7a1201bc/membase/baselines/evermemos/online_memory/config.py",
+    "bytes": 16398,
+    "sha256": "d32383acb5d8dcbb3a38d2ae47dc3659991d9f2d7caf3edc30b2e1ab464ddf50"
+  },
+  {
+    "repo": "zjunlp/MemBase",
+    "revision": "a9ba9495d48541d3e68588ff097294cc7a1201bc",
+    "path": "membase/baselines/evermemos/online_memory/index_manager.py",
+    "url": "https://raw.githubusercontent.com/zjunlp/MemBase/a9ba9495d48541d3e68588ff097294cc7a1201bc/membase/baselines/evermemos/online_memory/index_manager.py",
+    "bytes": 17382,
+    "sha256": "7c8ae8036b30f19fbe85440b198fa692ee19d6228e3e2c3abfa33c92e16242f6"
+  },
+  {
+    "repo": "zjunlp/MemBase",
+    "revision": "a9ba9495d48541d3e68588ff097294cc7a1201bc",
+    "path": "membase/baselines/evermemos/online_memory/memory_manager.py",
+    "url": "https://raw.githubusercontent.com/zjunlp/MemBase/a9ba9495d48541d3e68588ff097294cc7a1201bc/membase/baselines/evermemos/online_memory/memory_manager.py",
+    "bytes": 54626,
+    "sha256": "4cb086dbd6452b59e9450ca2c2bee5c7ff87bf04ec18509062b1eca2a00f73ca"
+  },
+  {
+    "repo": "zjunlp/MemBase",
+    "revision": "a9ba9495d48541d3e68588ff097294cc7a1201bc",
+    "path": "membase/baselines/evermemos/online_memory/prompts.py",
+    "url": "https://raw.githubusercontent.com/zjunlp/MemBase/a9ba9495d48541d3e68588ff097294cc7a1201bc/membase/baselines/evermemos/online_memory/prompts.py",
+    "bytes": 5338,
+    "sha256": "88e095664301afbc3aa1c3201eafa04463eaa3a52a88a093446a70f08fc8fd82"
+  },
+  {
+    "repo": "zjunlp/MemBase",
+    "revision": "a9ba9495d48541d3e68588ff097294cc7a1201bc",
+    "path": "membase/baselines/evermemos/online_memory/retriever.py",
+    "url": "https://raw.githubusercontent.com/zjunlp/MemBase/a9ba9495d48541d3e68588ff097294cc7a1201bc/membase/baselines/evermemos/online_memory/retriever.py",
+    "bytes": 123507,
+    "sha256": "865961a1fd9044488265300671ebf658a1a2d434af1d37278e3924fe4d5f05c1"
   }
-}
+]

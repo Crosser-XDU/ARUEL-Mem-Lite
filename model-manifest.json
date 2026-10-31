@@ -1,0 +1,13 @@
+{
+  "profile_A": "cancelled; no service or public route; SigLIP2 disabled in worker",
+  "active_model": {
+    "repo": "mlx-community/Qwen3-Reranker-4B-mxfp8",
+    "revision": "25f203a237b822a90f38763843562b93a5baf82f"
+  },
+  "weight_sha256": "e5218d379f3538e6b1f24084b367eab11f2ca8586fa94878bc170b153e5b96b3",
+  "quantization": {
+    "group_size": 32,
+    "bits": 8,
+    "mode": "mxfp8"
+  }
+}
