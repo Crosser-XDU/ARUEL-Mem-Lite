@@ -39,6 +39,8 @@ python3.12 -m venv .venv-models
 
 `ENV_FILE=/absolute/private.env` 可指定配置；`--host` / `--port` 可调整 API 监听。worker 强制回环地址。上线可通过 LaunchAgent/systemd 托管单进程 API 及 C 的单例 worker，避免多个 worker 重复加载模型。
 
+C 默认 `SEARCH_CONCURRENCY=2`，与 B 一致；两个 Search 可以同时推进召回、远程判断及等待重排。MLX worker 仍只执行一个推理任务，不会因此加载第二份模型，也不意味着重排吞吐翻倍。总超时仍为 1500 秒并包含排队时间。
+
 ## 接口与方法
 
 - [API 契约与示例](docs/api.md)：与赛事 [官方指南](https://agentmemoryleaderboard.ai/api-guide) 对齐，输出原始证据，不输出最终问答答案。

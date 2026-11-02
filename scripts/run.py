@@ -28,7 +28,7 @@ if a.component=='worker':
 else:
  require('MEMORY_API_TOKEN');require('OPENAI_API_KEY')
  if PROFILE=='C':require('WORKER_TOKEN')
- os.environ.setdefault('SEARCH_CONCURRENCY','1' if PROFILE=='C' else '2')
+ os.environ.setdefault('SEARCH_CONCURRENCY','2')
  app='aurel_memory.app:create_app';port=a.port or 18120
 if a.check_config:
  print('Configuration valid:',PROFILE,a.component,a.host,port)

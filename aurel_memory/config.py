@@ -17,7 +17,7 @@ class Settings:
     worker_url: str = "http://127.0.0.1:18220"
     dimensions: int = 1024
     llm_concurrency: int = 4
-    search_concurrency: int = 1
+    search_concurrency: int = 2
     upstream_timeout: int = 150
     add_timeout: int = 1700
     search_timeout: int = 1500

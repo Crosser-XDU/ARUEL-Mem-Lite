@@ -448,6 +448,41 @@
     "errors": 0,
     "wheel_built_and_modules_verified": true,
     "portable_startup_config_verified": true,
-    "live_application_source_match": "only default profile C and search concurrency 1 differ"
+    "live_application_source_match": "only default profile C differs"
+  },
+  "search_concurrency_update": {
+    "changed_at": "2026-11-02T10:54:56.294392+08:00",
+    "validated_at": "2026-11-02T10:55:38.960957+08:00",
+    "search_concurrency": 2,
+    "worker_concurrency": 1,
+    "worker_restarted": false,
+    "observed_simultaneous_searches": {
+      "rounds_started": 2,
+      "finished_searches": 0,
+      "judgment_calls": 0,
+      "embedding_calls": 2
+    },
+    "public_queries": [
+      {
+        "query_number": 1,
+        "status": 200,
+        "seconds": 11.483,
+        "results": 3,
+        "both_states": true,
+        "images": 1
+      },
+      {
+        "query_number": 2,
+        "status": 200,
+        "seconds": 15.843,
+        "results": 3,
+        "both_states": true,
+        "images": 1
+      }
+    ],
+    "rerank_pairs": 10,
+    "rerank_degraded": 0,
+    "unit_tests_passed": 39,
+    "scope": "Two small concurrent public queries; not a full leaderboard load test."
   }
 }
